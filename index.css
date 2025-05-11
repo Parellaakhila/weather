@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    
+    
+}
+
+#main_container {
+    padding: 20px;
+
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+#weatherImg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    
+    
+    
+    
+   
+    min-width: 50%; 
+    min-height: 50%;
+    z-index: -1;
+  }
+  .hourly-forecast {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 700px;
+  }
+  .hourly-cards {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+  .hour {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    min-width: 80px;
+  }
+  .hour img {
+    width: 40px;
+    height: 40px;
+  }
+  #hourly_forecast .card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+  }
+  #hourly_forecast .card img {
+    height: 50px;
+  }
+  
+
+#heading {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    margin-bottom: 20px;
+    text-align: center;
+}
+#darkMode_btn,#lightMode_btn{
+    margin-bottom: 20px;
+}
+
+#search_bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#search_bar input {
+    border-radius: 4px 0 0 4px;
+    border: 1px solid ;
+    padding: 10px;
+    flex: 1;
+    max-width: 500px;
+}
+
+
+#temperature_display {
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+#temperature_display .weather-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#temperature_display .card-title{
+    color: rgb(21, 21, 21);
+}
+#temperature_display .card-text,.temp_display{
+    color:rgb(23, 22, 22);
+}
+
+
+#card {
+   
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+ 
+    margin: 20px auto;
+}
+
+#converter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#degree_celsius, #fahreinheit {
+    margin-bottom: 20px;
+}
+
+#Future_data {
+    margin-top: 40px;
+}
+
+
+#Future_data .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#Future_data .weather-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+
+#Future_data .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 10px;
+}
+
+#Future_data .card-text {
+    font-size: 16px;
+    color:white;
+}
+
+
+#Future_data .col-12 {
+    max-width: 100%;
+}
+
+@media (min-width: 576px) {
+    #Future_data .col-sm-6 {
+        max-width: 48%;
+    }
+}
+
+@media (min-width: 768px) {
+    #Future_data .col-md-4 {
+        max-width: 30%;
+    }
+}
+
+@media (min-width: 992px) {
+    #Future_data .col-lg-2 {
+        max-width: 18%;
+    }
+}
+
+.weather_card {
+    width: 250px;        
+    padding: 10px;       
+    font-size: 14px;      
+  }
+  
+  .weather_card .card-title {
+    font-size: 16px;
+  }
+  
+  .weather_card .temp_display {
+    font-size: 20px;
+  }
+  
+  .weather-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #converter .btn {
+    padding: 4px 10px;
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  
+  

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  
+  
+  <div class="container-fluid" >
+    <h1 id="heading">Weather App</h1>
+   
+    
+    <form class="d-flex" id="search_bar">
+      <input class="form-control" type="search" id="search_input" placeholder="Enter your city to Search"
+        aria-label="Search">
+      <button class="btn btn-outline-danger btn_submit" id="search_btn" type="submit">Search</button>
+    </form>
+  </div>
+  <div class="container-fluid">
+  <div class="row">
+   
+    <div class="col-12 col-md-6 col-lg-2 mb-4">
+      <div id="temperature_display">
+        <div class="card weather_card mx-auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">City</h5>
+            <img src="download.jpg" alt="Weather Icon" id="weatherImg1" class="weather-icon img-fluid mb-2">
+            <p class="temp_display">__°C</p>
+            <p class="card-text">_</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-3" id="converter">
+        <button id="degree_celsius" class="btn btn-outline-primary" style="width: 120px;">Celsius</button>
+        <button id="fahreinheit" class="btn btn-outline-danger" style="width: 120px;">Fahrenheit</button>
+      </div>
+    </div>
+
+ 
+     <div id="main_container">
+    <div class="col-12 col-md-6 col-lg-12 mb-4">
+      
+        <div class="container-fluid" id="Future_data1">
+          <h1 class="text-center">Hourly Weather Forecast</h1>
+          <div class="row">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div id="main_container">
+      <h1>day weather forcasting data</h1>
+      <div class="container-fluid" id="Future_data">
+        <div class="row">
+          </div>
+        </div>
+      </div>
+      
+      </div>
+ 
+  <!-- Hourly Forecast for Multiple Cities -->
+
+
+  
+  
+  <video autoplay muted loop id="weatherImg">
+    <source src=" 3129957-uhd_3840_2160_25fps.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html> 
+
+ 
