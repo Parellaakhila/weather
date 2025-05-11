@@ -100,7 +100,7 @@ body {
 #temperature_display {
     text-align: center;
     margin-bottom: 20px;
-  
+
 }
 #temperature_display .weather-icon {
     width: 50px;
@@ -172,17 +172,53 @@ body {
     #Future_data .col-sm-6 {
         max-width: 48%;
     }
+    #Future_data1 .col-sm-6 {
+        max-width: 48%;
+    }
+    #weatherImg {
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    }
 }
 
 @media (min-width: 768px) {
     #Future_data .col-md-4 {
         max-width: 30%;
     }
+    #Future_data1 .col-md-4 {
+        max-width: 30%;
+    }
+    #weatherImg {
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    }
 }
 
 @media (min-width: 992px) {
     #Future_data .col-lg-2 {
         max-width: 18%;
+    }
+     #Future_data1 .col-lg-2 {
+        max-width: 18%;
+    }
+    #weatherImg {
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
     }
 }
 
@@ -211,5 +247,6 @@ body {
     margin: 5px;
   }
 
-  
+
+    
   
