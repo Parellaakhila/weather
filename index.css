@@ -220,6 +220,23 @@ body {
     z-index: -1;
     }
 }
+@media (min-width: 200px) {
+    #Future_data .col-md-4 {
+        max-width: 30%;
+    }
+    #Future_data1 .col-md-2 {
+        max-width: 30%;
+    }
+    #weatherImg {
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    }
+}
 
 @media (min-width: 992px) {
     #Future_data .col-lg-2 {
